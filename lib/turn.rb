@@ -18,3 +18,5 @@ def valid_move?(board, index)
     return true
   end
 end
+
+def move(board, pos, char = "X")
