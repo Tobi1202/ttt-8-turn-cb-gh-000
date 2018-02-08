@@ -20,5 +20,6 @@ def valid_move?(board, index)
 end
 
 def move(board, pos, char = "X")
-  return board[pos] = char
+  board[pos] = char
+  return board
 end
