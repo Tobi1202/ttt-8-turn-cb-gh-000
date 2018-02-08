@@ -24,4 +24,5 @@ def move(board, pos, char = "X")
   return board
 end
 
-def turn
+def turn(board)
+  
