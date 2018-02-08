@@ -1,7 +1,7 @@
 def display_board(board)
   index = 0;
-  until index = 2
-
+  until index = 6
+    puts " #{board[index]}"
   end
 end
 
