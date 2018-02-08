@@ -1,6 +1,6 @@
 def display_board(board)
   index = 0;
-  until index = 6
+  until index = 9
     puts " #{board[index]} | #{board[index+1]} | #{board[index+2]} "
     puts "------------"
     index += 3
